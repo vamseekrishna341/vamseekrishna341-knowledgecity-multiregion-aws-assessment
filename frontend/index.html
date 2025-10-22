@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Video Upload Demo</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>KnowledgeCity Video Upload Demo</h1>
+
+    <input type="file" id="fileInput" accept="video/*" />
+    <button onclick="uploadFile()">Upload Video</button>
+
+    <p id="status"></p>
+    <h2>Processed Videos</h2>
+    <ul id="videoList"></ul>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
